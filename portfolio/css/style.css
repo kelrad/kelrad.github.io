@@ -2,7 +2,7 @@
 body{
 	background-color: #e74c3c;
 	color: #231f20;
-	font-family: 'Signika', Helvetica, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -10,7 +10,7 @@ body{
 	}
 
 h1{
-	font-family: 'Damion', cursive;
+	font-family: 'Contrail One', cursive;
 	margin: 80px auto 10px auto;
 	font-size: 4em;
 	}
