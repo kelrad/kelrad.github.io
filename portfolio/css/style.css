@@ -10,6 +10,7 @@ body{
 	}
 
 h1{
+	font-family: 'Sue Ellen Francisco', cursive;
 	margin: 80px auto 10px auto;
 	text-transform: uppercase;
 	font-weight: 100;
