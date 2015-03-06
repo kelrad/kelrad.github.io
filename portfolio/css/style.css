@@ -29,16 +29,16 @@ ul{
 li{
 	display: inline-block;
 	text-transform: uppercase;
-	margin-left:7px;
-	margin-right:7px;
+	margin-left: 7px;
+	margin-right: 7px;
 	font-weight: normal;
 	}
 li:first-child{
 	font-weight: bold;
 	}	
 #slogan{
-	font-style:italic;
-	font-weight:bold;
+	font-style: italic;
+	font-weight: bold;
 	text-transform: uppercase;
 	}
 img{
@@ -48,7 +48,7 @@ img{
 	}
 a{
 	text-decoration: none;
-	display:inline-block;
+	display: inline-block;
 	margin-top: 40px;
 	text-transform: uppercase;
 	color: #231f20;
