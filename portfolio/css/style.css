@@ -2,7 +2,7 @@
 body{
 	background-color: #e74c3c;
 	color: #231f20;
-	font-family: Helvetica, Arial; sans-serif;
+	font-family: 'Signika', Helvetica, sans-serif;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -17,8 +17,7 @@ h1{
 p{
 	margin: 0px 50px 15px 50px;
 	line-height: 1.5em;
-	font-family: 'Signika', sans-serif;
-	} 
+		} 
 ul{
 	border-top: 3px solid #231f20;
 	padding-top: 10px;
