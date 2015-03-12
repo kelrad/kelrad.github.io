@@ -1,0 +1,58 @@
+* {margin:0;padding:0;box-sizing:border-box;}
+body{
+	background-color: #e74c3c;
+	color: #231f20;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	}
+
+h1{
+	font-family: 'Contrail One', cursive;
+	padding-top: 120px;
+	margin: 0px auto 10px auto;
+	font-size: 4em;
+	}
+h2{
+	float:left;
+	font-size:1em;
+}
+p{
+	margin: 0px 50px 15px 50px;
+	line-height: 1.5em;
+		} 
+ul{
+	border-top: 3px solid #231f20;
+	padding-top: 10px;
+	border-bottom: 3px solid #231f20;
+	padding-bottom: 8px;
+	background-color: #231f20;
+	color:#e74c3c;
+}
+li{
+	display: inline-block;
+	text-transform: uppercase;
+	margin:0 7px 0 7px;
+	font-weight: normal;
+	}
+#slogan{
+	font-style: italic;
+	font-weight: bold;
+	text-transform: uppercase;
+	}
+img{
+	width: 5em;
+	margin: 0px auto 20px auto;
+	}
+a{
+	border-radius: 5px;
+	border: 2px solid #231f20;
+	color: #231f20;
+	display: inline-block;
+	font-weight: bold;
+	margin-top: 30px;
+	padding-top: 12px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	width: 150px;
+}
