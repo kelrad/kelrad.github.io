@@ -120,3 +120,14 @@ a:active{
 	height: 4em;
 	margin-right: 2em;
 }
+.wrapper {
+	max-width:75em;
+	margin:0 auto;
+}
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
