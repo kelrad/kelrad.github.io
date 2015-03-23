@@ -5,11 +5,13 @@ body{
 h1,h2{
 	clear: both;
 	display: inline-block;
-	font-family: 'Copse', serif;
-	font-size: 4em;
+	font:normal normal bold 4em/normal 'Copse', serif;
 	letter-spacing: .05em;
 	padding-bottom: .02em;
 	text-align: left;
+	/*Dirty IE Hack*/
+  	zoom: 1;
+ 	*display: inline;
 	}
 h1{
 	border-bottom: 5px solid #9c2e23;
@@ -20,32 +22,29 @@ h2{
 	margin: 1em 1.5em .5em 1.5em;
 }		
 p{
-	font-size: 2em;
-	font-weight: 500;
+	font: normal normal 500 2em/140% 'Open Sans', sans-serif;
 	letter-spacing: .05em;
-	line-height: 1.4em;
 	margin: .5em 4em 0em 3em;
 	} 
-#intro{ 
+header{ 
 	background:#e74c3c;
 	height:100vh;
+	color: #9c2e23;
+	display:block;
 }
 #work{
 	background: #bdc3c7;
 	border-top: 5px solid white;
+	color: #4d4d4d;
 }
 #contact{
 	background:#3498db;
 	border-top: 5px solid white;
 	color: #16547d;
 	overflow: hidden
-}
-#intro p{
-	color: #9c2e23;
 }	
 #work h2{
-	border-bottom: 5px solid #4d4d4d;
-	color: #4d4d4d;
+	border-bottom: 5px solid #4d4d4d;	
 }	
 #images{
 	padding: 0em 4em 2em 5em;
@@ -55,6 +54,9 @@ p{
 	height: 9em;
 	margin: .5em;
 	padding: .3em;
+	/*Dirty IE Hack*/
+  	zoom: 1;
+ 	*display: inline;
 	}	
 #contact h2{
 	border-bottom: 5px solid #16547d;
@@ -65,8 +67,11 @@ p{
 	float: left;
 	height: 15em;
 	margin: 1em 0em 4em 10em;
+	/*Dirty IE Hack*/
+  	zoom: 1;
+ 	*display: inline;
 }
-#contact p{
+#first, #second{
 	float: right;
 	font-size: 1.5em;
 	width: 50%;
@@ -81,17 +86,15 @@ p{
 a{
 	text-decoration: none;
 	font-weight: 700;
-}
-a:link{
-	color: #9c2e23;
-}	
-a:visited{
 	color: #9c2e23;
 }
-a:hover{
+#work-link:hover{
 	color: #66150d;
 }
-a:active{
+#thoughts-link:hover{
+	color: #66150d;
+}
+#contact-link:hover{
 	color: #66150d;
 }
 .arrow{
@@ -99,19 +102,28 @@ a:active{
 	margin-top: 4em;
 	text-align: center;
 }
+.arrow:hover{
+	color: #66150d;
+}
 #grey-arrow{
 	color: #4d4d4d;
-	margin-top: .5em;
+	margin-top: 0em;
+}	
+#grey-arrow:hover{
+	color: black;
 }
 #social-icons{
 	float: right;
-	margin: 0em 8em 4em 2em;
+	margin: 0em 8em 3em 2em;
 	width: 50%;	
 }
 #social-icons img{
 	display: inline-block;
-	height: 4em;
+	height: 3.5em;
 	margin-right: 2em;
+	/*Dirty IE Hack*/
+  	zoom: 1;
+ 	*display: inline;
 }
 .wrapper {
 	max-width:75em;
