@@ -30,11 +30,8 @@ p{
 	background:#e74c3c;
 	color: #9c2e23;
 	display:block;
-<<<<<<< HEAD
 	height:100vh;
 	padding-top: 10em;
-=======
->>>>>>> origin/master
 	position:relative;
 }
 #work{
@@ -106,14 +103,10 @@ a{
 .arrow{
 	position:absolute;
 	bottom:0;
+	font-size:2em;
 	left:50%;
-<<<<<<< HEAD
 	padding-bottom: 1.5em;
 	transform:translateX(-50%);
-	font-size:2em;
-=======
-	transform:translateX(-50%);
->>>>>>> origin/master
 }
 .arrow:hover{
 	color: #66150d;
@@ -149,9 +142,5 @@ a{
 	height: 0; 
 	clear: both;
 }
-<<<<<<< HEAD
 section{
 	padding: 4em 0;
-}
-=======
->>>>>>> origin/master
