@@ -1,7 +1,7 @@
 * {margin:0;padding:0;box-sizing:border-box;}
 
 body{
-	background: #ecf0f1;
+	background: #ccecec;
 	color: #DB0A5B;
 	font-family: 'Droid Sans', sans-serif;
 	font-weight: 400;
@@ -60,7 +60,7 @@ a:last-child{
 	vertical-align: center;
 }
 #main{
-	background: #ecf0f1;
+	background: #ccecec;
 }
 #main-wrapper{
 	display: block;
