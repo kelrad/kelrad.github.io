@@ -1,0 +1,73 @@
+* {margin:0;padding:0;box-sizing:border-box;}
+body{
+	background: #EF4836;
+	color: white;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 400;
+}
+h1{
+	font-size: 5.5em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+p{
+	font-size: 1.5em;
+	margin-top: .5em;
+}
+#nav{
+	background :#6C7A89;
+	box-shadow: 2.2px 2.2px 1.7px #47476B;
+	height: 5em;
+	position: fixed;
+	width: 100%;
+}
+nav{
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	width: 100%;
+}
+a{
+	color: white;
+	font-size: 1em;
+	font-weight: 700;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+a:first-child{
+	padding-right: 2em;
+}
+a:last-child{
+	padding-left: 2em;
+}
+#logo{
+	height: 3em;
+	float: left;
+	margin-top: 1em;
+}
+#nav-links{
+	display: inline;
+	float: right;
+	padding-top: 2em;
+	vertical-align: center;
+}
+#main{
+	background: #EF4836;
+}
+#main-wrapper{
+	display: block;
+	margin: 0em auto;
+	padding-top: 8em;
+	text-align: center;
+	width: 80%;
+}
+#woman{
+	height: 18em;
+	margin-top: 2.2em;
+}
+.clearfix:after { 
+	clear: both;
+	content: ".";  
+	display: block; 
+	height: 0; 
+	visibility: hidden;
+}
