@@ -1,6 +1,6 @@
 * {margin:0;padding:0;box-sizing:border-box;}
 body{
-	background: #EF4836;
+	background: #6C7A89;
 	color: white;
 	font-family: 'Droid Sans', sans-serif;
 	font-weight: 400;
@@ -15,7 +15,7 @@ p{
 	margin-top: .5em;
 }
 #nav{
-	background :#6C7A89;
+	background :#EF4836;
 	box-shadow: 2.2px 2.2px 1.7px #47476B;
 	height: 5em;
 	position: fixed;
@@ -51,7 +51,7 @@ a:last-child{
 	vertical-align: center;
 }
 #main{
-	background: #EF4836;
+	background: #6C7A89;
 }
 #main-wrapper{
 	display: block;
