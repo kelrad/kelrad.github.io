@@ -43,7 +43,7 @@ a:first-child{
 	margin-right: 2em;
 }
 a:nth-child(2){
-	margin-left: 2em;
+	margin-right: 2em;
 }
 a:last-child{
 	margin-left: 2em;
