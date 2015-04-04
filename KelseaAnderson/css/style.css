@@ -39,14 +39,8 @@ a{
 a:hover{
 	border-bottom: 2px solid white;
 }
-a:first-child{
-	margin-right: 2em;
-}
-a:nth-child(2){
-	margin-right: 2em;
-}
-a:last-child{
-	margin-left: 2em;
+a+a{
+	margin-left: 1.7em;
 }
 #logo{
 	height: 3em;
