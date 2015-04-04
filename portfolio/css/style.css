@@ -9,9 +9,6 @@ h1,h2{
 	letter-spacing: .05em;
 	padding-bottom: .02em;
 	text-align: left;
-	/*Dirty IE Hack*/
-  	zoom: 1;
- 	*display: inline;
 	}
 h1{
 	border-bottom: 5px solid #9c2e23;
@@ -57,9 +54,6 @@ p{
 	height: 9em;
 	margin: .5em;
 	padding: .3em;
-	/*Dirty IE Hack*/
-  	zoom: 1;
- 	*display: inline;
 	}	
 #contact h2{
 	border-bottom: 5px solid #16547d;
@@ -70,9 +64,6 @@ p{
 	float: left;
 	height: 15em;
 	margin: 1em 0em 4em 10em;
-	/*Dirty IE Hack*/
-  	zoom: 1;
- 	*display: inline;
 }
 #first, #second{
 	float: right;
@@ -127,9 +118,6 @@ a{
 	display: inline-block;
 	height: 3.5em;
 	margin-right: 2em;
-	/*Dirty IE Hack*/
-  	zoom: 1;
- 	*display: inline;
 }
 .wrapper {
 	max-width:75em;
