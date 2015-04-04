@@ -65,15 +65,15 @@ p{
 	height: 15em;
 	margin: 1em 0em 4em 10em;
 }
-#first, #second{
+h3, #contact p{
 	float: right;
 	font-size: 1.5em;
 	width: 50%;
 }
-#first{
+#contact p{
 	margin: 1em 5em 1.5em 2em;
 }
-#second{
+h3{
 	margin: 0em 5em .6em 2em;
 	font-weight: 700;
 }
