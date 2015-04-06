@@ -132,3 +132,44 @@ a{
 }
 section{
 	padding: 4em 0;
+}
+.project{
+	background: #bdc3c7;
+	color: #4d4d4d;
+}
+.project h2{
+	border-bottom: 5px solid #4d4d4d;
+	margin: 1em 1.5em 0em 0em;
+}
+.project img{
+	width: 80%;
+	margin-top: 2em;
+}
+.project p{
+	font-size: 1em;
+	margin: 0em;
+	padding-top: 0em;
+
+}
+.project .wrapper{
+	padding: 0em 4em 2em 5em;
+	max-width: 90%;
+}
+.project .wrapper img:last-child{
+	padding-bottom: 0em;
+}
+#last, #home, #next{
+	font-size: 2em;
+	color: #4d4d4d;
+	font-family: 'Copse';
+}
+#bottom-nav a:hover{
+	color: black;
+}
+#bottom-nav a+a{
+	padding-left: 9em;
+	width: 100%;
+}
+#bottom-nav{
+	padding-top: 2em;
+}
