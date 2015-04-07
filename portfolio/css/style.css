@@ -136,40 +136,55 @@ section{
 .project{
 	background: #bdc3c7;
 	color: #4d4d4d;
+	margin: 2em 0em;
 }
-.project h2{
+.project-wrapper h2{
 	border-bottom: 5px solid #4d4d4d;
-	margin: 1em 1.5em 0em 0em;
+	margin-left: 0em;
+	margin-bottom: 0em;
+}
+.project-wrapper{
+	padding: 0em 4em 2em 5em;
+	width: 85%;
 }
 .project img{
-	width: 80%;
+	width: 100%;
 	margin-top: 2em;
 }
 .project p{
 	font-size: 1em;
-	margin: 0em;
-	padding-top: 0em;
-
+	margin: .2em 0 0 0;
 }
-.project .wrapper{
-	padding: 0em 4em 2em 5em;
-	max-width: 90%;
-}
-.project .wrapper img:last-child{
-	padding-bottom: 0em;
-}
-#last, #home, #next{
+.last, .home, .next{
 	font-size: 2em;
 	color: #4d4d4d;
 	font-family: 'Copse';
 }
-#bottom-nav a:hover{
+.bottom-nav a:hover{
 	color: black;
 }
-#bottom-nav a+a{
-	padding-left: 9em;
+.bottom-nav{
+	margin-top: 2em;
 	width: 100%;
 }
-#bottom-nav{
-	padding-top: 2em;
+.bottom-nav a{
+	display: block;
+	width: 33.3%;
+	padding: 0;
+	margin: 0;
 }
+.project-wrapper a:last-child{
+	float: right;
+}
+.project-wrapper a:first-child{
+	float: left;
+}
+.project-wrapper a:nth-child(2){
+	float: left;
+	text-align: center;
+}
+.project-wrapper a:last-child{
+	float: right;
+	text-align: right;
+}
+
