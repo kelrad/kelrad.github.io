@@ -9,26 +9,21 @@ h1,h2{
 	letter-spacing: .05em;
 	padding-bottom: .02em;
 	text-align: left;
+	margin-bottom: .5em;
 	}
 h1{
 	border-bottom: 5px solid #9c2e23;
 	color: #9c2e23;
-	margin: 0em 1.5em .25em 1.5em;
-}
-h2{
-	margin: 0em 1.5em .5em 1.5em;
 }		
 p{
 	font: normal normal 500 2em/140% 'Open Sans', sans-serif;
 	letter-spacing: .05em;
-	margin: .5em 4em 0em 3em;
 	} 
 #about{ 
 	background:#e74c3c;
 	color: #9c2e23;
-	display:block;
 	height:100vh;
-	padding-top: 10em;
+	padding-top: 9em;
 	position:relative;
 }
 #work{
@@ -43,11 +38,15 @@ p{
 	color: #16547d;
 	overflow: hidden
 }	
+#about p{
+	width: 80%;
+}
 #work h2{
 	border-bottom: 5px solid #4d4d4d;	
 }	
 #images{
-	padding: 0em 4em 2em 5em;
+	padding-bottom: 2em;
+	width: 90%;
 }
 #work img{
 	display: inline-block;
@@ -60,17 +59,14 @@ p{
 	color: #16547d;
 }
 #self{
-	display: inline-block;
 	float: left;
 	height: 15em;
-	margin: 1em 0em 4em 10em;
+	margin: 1em 0em 1em 0em;
 }
 h3, #contact p{
 	float: right;
 	font-size: 1.5em;
 	width: 50%;
-}
-#contact p{
 	margin: 1em 5em 1.5em 2em;
 }
 h3{
@@ -113,6 +109,7 @@ a{
 	float: right;
 	margin: 0em 8em 0em 2em;
 	width: 50%;	
+	text-align: left;
 }
 #social-icons img{
 	display: inline-block;
@@ -120,8 +117,9 @@ a{
 	margin-right: 2em;
 }
 .wrapper {
-	max-width:75em;
-	margin:0;
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
 }
 .clearfix:after { 
 	content: "."; 
@@ -140,7 +138,6 @@ section{
 }
 .project-wrapper h2{
 	border-bottom: 5px solid #4d4d4d;
-	margin-left: 0em;
 	margin-bottom: 0em;
 }
 .project-wrapper{
@@ -187,4 +184,99 @@ section{
 	float: right;
 	text-align: right;
 }
-
+@media screen and (max-width: 1200px){
+  .project-wrapper h2{
+	    font-size: 3em;
+	    border-bottom: 3px solid #4d4d4d;
+    }
+    .project-wrapper{
+	    width: 95%;
+	    padding: 0em 2em 2em 2em;
+  	}
+  	.arrow{
+  		display: block;
+  		width: 100%;
+  		padding-top: 1em;
+  		padding-bottom: 1.5em;
+		text-align: center;
+  	}
+	#about p{
+	  	width:95%;
+	 }
+	 #social-icons img{
+		margin-right: 1em;
+	}
+}
+@media screen and (max-width: 1004px) {
+	#self{
+	 	float: none;
+	}
+ 	#contact p, #contact h3, #social-icons{
+ 		float: none;
+ 		margin-left:0;
+ 		width: 90%;
+ 	}
+ }
+@media screen and (max-width: 845px) {
+ 	h1{
+ 	margin-top: 1em;
+ 	}
+ 	h2{
+    border-bottom: 2px solid #4d4d4d;
+    }
+  	p,h3{
+   	font-size: 1.5em;
+   } 
+   .bottom-nav a{
+   	font-size: 1.5em;
+   }
+   h1,h2{
+   	font-size: 2.5em;
+   }
+   #images{
+   	padding-right: 0;
+   	width: 100%;
+   }
+   #work img{
+   	height: 12em;
+   	margin-left: 0;
+   }
+}
+@media screen and (max-width: 771px) {
+   #about{
+   	padding-top: 4em;
+   }
+}
+@media screen and (max-width: 550px) {
+   	#work img{
+   		height: 8em;
+   	}
+  	p{
+   		font-size: 1.3em;
+   	}
+   	#contact p, h3{
+   		font-size: 1.3em;
+   	}
+   	#about{
+	   	padding-top: 2.5em;
+	 	}
+ 	#about,#work,#contact{
+	 	padding-left: .7em;
+	 	}
+	.arrow{
+	 	padding-bottom: 1em;
+	 }
+	 #social-icons img{
+ 		margin-right:.4em;
+ 	}
+}
+@media screen and (max-width: 413px) {
+   #work img{
+   	height: 10em;
+   }
+}
+@media screen and (max-width: 376px) {
+   #work img{
+   	height: 9em;
+   }
+}
