@@ -12,9 +12,9 @@ h1,h2{
 	margin-bottom: .5em;
 	}
 h1{
-	border-bottom: 5px solid #9c2e23;
+	border-bottom: .08em solid #9c2e23;
 	color: #9c2e23;
-}		
+	}		
 p{
 	font: normal normal 500 2em/140% 'Open Sans', sans-serif;
 	letter-spacing: .05em;
@@ -28,50 +28,54 @@ p{
 }
 #work{
 	background: #bdc3c7;
-	border-top: 5px solid white;
+	border-top: .5em solid white;
 	color: #4d4d4d;
 	position:relative;
 }
 #contact{
 	background:#3498db;
-	border-top: 5px solid white;
+	border-top: .5em solid white;
 	color: #16547d;
 	overflow: hidden
 }	
 #about p{
-	width: 80%;
+	width: 100%;
 }
 #work h2{
-	border-bottom: 5px solid #4d4d4d;	
+	border-bottom: .08em solid #4d4d4d;	
 }	
 #images{
-	padding-bottom: 2em;
-	width: 90%;
+	padding-bottom: 3%;
+	height: 100;
 }
 #work img{
 	display: inline-block;
 	height: 9em;
-	margin: .5em;
-	padding: .3em;
-	}	
+	margin: 1%;
+}	
+.image{
+	width: 24%;
+	display: inline-block;
+}	
 #contact h2{
-	border-bottom: 5px solid #16547d;
+	border-bottom: .08em solid #16547d;
 	color: #16547d;
 }
 #self{
 	float: left;
-	height: 15em;
-	margin: 1em 0em 1em 0em;
+	margin: 1% 1% 1% 0%;
+	width: 30%;
 }
 h3, #contact p{
 	float: right;
 	font-size: 1.5em;
-	width: 50%;
-	margin: 1em 5em 1.5em 2em;
+	width: 60%;
+	margin: 2em 0em 1.5em 0em;
 }
 h3{
-	margin: 0em 5em .6em 2em;
+	margin: 0em 0em .6em 0em;
 	font-weight: 700;
+	width: 60%;
 }
 a{
 	text-decoration: none;
@@ -88,33 +92,32 @@ a{
 	color: #66150d;
 }
 .arrow{
-	position:absolute;
-	bottom:0;
-	font-size:2em;
-	left:50%;
-	padding-bottom: 1.5em;
-	transform:translateX(-50%);
+	display: inline-block;
+	font-size: 2em;
+	text-align:center;
+	width:100%;
 }
 .arrow:hover{
 	color: #66150d;
 }
 #grey-arrow{
 	color: #4d4d4d;
-	margin-top: 0em;
 }	
 #grey-arrow:hover{
 	color: black;
 }
 #social-icons{
 	float: right;
-	margin: 0em 8em 0em 2em;
-	width: 50%;	
+	width: 60%;	
 	text-align: left;
 }
-#social-icons img{
+.social-icon img{
+	height: 3em;
+	margin: 3%;
+}
+.social-icon{
+	width: 10%;
 	display: inline-block;
-	height: 3.5em;
-	margin-right: 2em;
 }
 .wrapper {
 	width:80%;
@@ -129,26 +132,26 @@ a{
 	clear: both;
 }
 section{
-	padding: 4em 0;
+	padding: 3em 0;
 }
 .project{
 	background: #bdc3c7;
 	color: #4d4d4d;
-	margin: 2em 0em;
 }
 .project-wrapper h2{
-	border-bottom: 5px solid #4d4d4d;
+	border-bottom: .08em solid #4d4d4d;
 	margin-bottom: 0em;
+	margin-top: .5em;
 }
 .project-wrapper{
 	padding: 0em 4em 2em 5em;
-	width: 85%;
+	width: 80%;
 }
 .project img{
 	width: 100%;
 	margin-top: 2em;
 }
-.project p{
+caption{
 	font-size: 1em;
 	margin: .2em 0 0 0;
 }
@@ -161,7 +164,8 @@ section{
 	color: black;
 }
 .bottom-nav{
-	margin-top: 2em;
+	padding-top: 2em;
+	padding-bottom: 3em;
 	width: 100%;
 }
 .bottom-nav a{
@@ -184,99 +188,110 @@ section{
 	float: right;
 	text-align: right;
 }
-@media screen and (max-width: 1200px){
-  .project-wrapper h2{
-	    font-size: 3em;
-	    border-bottom: 3px solid #4d4d4d;
-    }
-    .project-wrapper{
-	    width: 95%;
-	    padding: 0em 2em 2em 2em;
-  	}
-  	.arrow{
-  		display: block;
-  		width: 100%;
-  		padding-top: 1em;
-  		padding-bottom: 1.5em;
-		text-align: center;
-  	}
-	#about p{
-	  	width:95%;
-	 }
-	 #social-icons img{
-		margin-right: 1em;
-	}
-}
-@media screen and (max-width: 1004px) {
-	#self{
-	 	float: none;
-	}
- 	#contact p, #contact h3, #social-icons{
- 		float: none;
- 		margin-left:0;
- 		width: 90%;
- 	}
- }
-@media screen and (max-width: 845px) {
- 	h1{
- 	margin-top: 1em;
- 	}
- 	h2{
-    border-bottom: 2px solid #4d4d4d;
-    }
-  	p,h3{
-   	font-size: 1.5em;
-   } 
-   .bottom-nav a{
-   	font-size: 1.5em;
-   }
-   h1,h2{
-   	font-size: 2.5em;
-   }
-   #images{
-   	padding-right: 0;
-   	width: 100%;
-   }
-   #work img{
-   	height: 12em;
-   	margin-left: 0;
-   }
-}
-@media screen and (max-width: 771px) {
-   #about{
-   	padding-top: 4em;
-   }
-}
-@media screen and (max-width: 550px) {
-   	#work img{
-   		height: 8em;
-   	}
-  	p{
-   		font-size: 1.3em;
-   	}
-   	#contact p, h3{
-   		font-size: 1.3em;
-   	}
-   	#about{
-	   	padding-top: 2.5em;
-	 	}
- 	#about,#work,#contact{
-	 	padding-left: .7em;
-	 	}
+@media screen and (max-width: 802px){
+	h1,h2{
+		font-size:2.5em;
+		transition: font 0.3s ease;
+		}
+	p{
+		font-size: 1.5em;
+		transition: font 0.3s ease;
+	}	
 	.arrow{
-	 	padding-bottom: 1em;
-	 }
-	 #social-icons img{
- 		margin-right:.4em;
- 	}
+		font-size: 1.5em;
+		transition: font 0.3s ease;
+	}	
+	.image{
+		width: 49%;
+		display: inline-block;
+		transition: width 0.3s ease;
+	}
+	.social-icon img{
+		height: 4em;
+		padding: 5%;
+	}
+	.social-icon img:first-child{
+		padding-left: 0%;
+	}
+	#social-icons{
+		float: none;
+	}
+	.social-icon{
+		width: 18%;
+	}
+	#self{
+		display: block;
+		float: none;
+		text-align: left;
+		width: 50%;
+		margin: 0;
+	}
+	#contact p, #contact h3{
+		display: block;
+		float: none;
+		text-align: left;
+		width: 100%;
+	}
+	#contact p{
+		font-size: 1.2em;
+	}
 }
-@media screen and (max-width: 413px) {
-   #work img{
-   	height: 10em;
-   }
-}
-@media screen and (max-width: 376px) {
-   #work img{
-   	height: 9em;
-   }
+
+@media screen and (max-width: 415px){
+	h1,h2{
+		font-size:2.2em;
+		transition: font 0.3s ease;
+		}
+	#about{
+		padding-top: 5em;
+	}
+	p{
+		font-size: 1.2em;
+		transition: font 0.3s ease;
+	}	
+	.arrow{
+		font-size: 1.2em;
+		transition: font 0.3s ease;
+	}
+	.image{
+		width: 98%;
+		display: inline-block;
+		transition: width 0.3s ease;
+	}
+	#about, #work, #contact{
+		text-align: center;
+	}
+	#self{
+		display: block;
+		float: none;
+		text-align: center;
+		width: 98%;
+		margin: 0;
+	}
+	#contact p, #contact h3{
+		display: block;
+		float: none;
+		text-align: center;
+		width: 98%;
+	}
+	#contact p{
+		font-size: 1.2em;
+	}
+	#social-icons{
+		float: none;
+		width: 98%;	
+		text-align: center;
+		margin: 0;
+		padding:0;
+	}
+	.social-icon img{
+		height: 4em;
+		padding: 10%;
+	}
+	.social-icon img:last-child{
+		padding-right: 0%;
+	}
+	.social-icon{
+		width: 25%;
+	}
 }
