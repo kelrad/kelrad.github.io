@@ -188,8 +188,11 @@ section{
 	float: right;
 	text-align: right;
 }
-#break{
-	display: none;
+.last.hide{
+	visibility: hidden;
+}
+.next.hide{
+	visibility: hidden;
 }
 @media screen and (max-width: 1080px){
 	h1,h2{
@@ -201,7 +204,10 @@ section{
 	h1,h2{
 		font-size:2.5em;
 		transition: font 0.3s ease;
-		}
+				}
+	.project-wrapper h2{
+		border-bottom: .1em solid #4d4d4d;	
+	}
 	p{
 		font-size: 1.5em;
 		transition: font 0.3s ease;
@@ -248,10 +254,11 @@ section{
 	}
 	.project-wrapper{
 		width: 100%;
-		padding: 10%;
+		padding: 5% 10%;
 	}
 	.project-wrapper h2{
 		font-size: 1.4em;
+		border-bottom: .1em solid #4d4d4d;	
 	}
 	.project-wrapper p{
 		font-size:1em;
@@ -307,6 +314,7 @@ section{
 	}
 	.project-wrapper h2{
 		font-size: 1.2em;
+		border-bottom: .14em solid #4d4d4d;	
 	}
 	.project-wrapper p{
 		font-size: .9em;
@@ -315,5 +323,8 @@ section{
 		font-size: 1.2em;
 		padding-top: .7em;
 		padding-bottom:10%;
+	}
+	.project-wrapper img{
+		margin-top: 1.5em;
 	}
 }
