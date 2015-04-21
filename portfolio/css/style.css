@@ -350,18 +350,20 @@ section{
 		}
 	#social-top{
 		width: 100%;
+		text-align: center;
 	}
 	#social-bottom{
 		width: 100%;
 		margin: 0 auto;
+		text-align: center;
 	}
 	#social-top a{
 		width: 33.3%;
 	}
 	#social-bottom a{
 		width: 25%;
-		padding-right: 5%;
-		padding-left: 5%;
+		padding-right: 0%;
+		padding-left: 0%;
 	}
 	#social-top, #social-bottom:last-child{
 		float: right;
