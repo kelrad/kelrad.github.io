@@ -196,6 +196,9 @@ section{
 .next.hide{
 	visibility: hidden;
 }
+#social-bottom, #social-top{
+	display: inline;
+}
 @media screen and (max-width: 1199px){
 	.project-wrapper h2{
 		font-size: 2.3em;
@@ -345,4 +348,25 @@ section{
 		width: 100%;
 		transition: width 0.3s ease;
 		}
+	#social-top{
+		width: 100%;
+	}
+	#social-bottom{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#social-top a{
+		width: 33.3%;
+	}
+	#social-bottom a{
+		width: 25%;
+		padding-right: 5%;
+		padding-left: 5%;
+	}
+	#social-top, #social-bottom:last-child{
+		float: right;
+	}
+	#social-top, #social-bottom:first-child{
+		float: left;
+	}
 }
