@@ -136,19 +136,22 @@ section{
 	background: #bdc3c7;
 	color: #4d4d4d;
 }
+.project-wrapper{
+	padding: 0 5% 2.5% 1%;
+	width: 60%;
+	margin: 0 4%;
+}
 .project-wrapper h2{
 	border-bottom: .08em solid #4d4d4d;
+	font-size: 2.7em;
 	margin-bottom: 0em;
-	margin-top: .5em;
-}
-.project-wrapper{
-	padding: 0em 4em 2em 5em;
-	width: 60%;
+	margin-top: 1em;
 }
 .project img{
 	width: 100%;
 	margin-top: 2em;
-	transition: font 0.3s ease;
+	transition: width 0.3s ease;
+	display:block;
 }
 .project-wrapper p{
 	font-size: 1em;
@@ -193,24 +196,21 @@ section{
 .next.hide{
 	visibility: hidden;
 }
-@media screen and (max-width: 1670px){	
+@media screen and (max-width: 1199px){
 	.project-wrapper h2{
-		font-size:2em;
+		font-size: 2.3em;
+		border-bottom: .07em solid #4d4d4d;
 		transition: font 0.3s ease;
 	}
-@media screen and (max-width: 1080px){
-	.wrapper h1,h2{
-		font-size:2.5em;
-		transition: font 0.3s ease;
+	.project-wrapper{
+		width: 70%;
+		transition: width 0.3s ease;
 		}
-	}	
-@media screen and (max-width: 945px){
+}
+@media screen and (max-width: 1000px){
 	h1,h2{
 		font-size:2.5em;
 		transition: font 0.3s ease;
-				}
-	.project-wrapper h2{
-		border-bottom: .1em solid #4d4d4d;	
 	}
 	p{
 		font-size: 1.5em;
@@ -256,25 +256,36 @@ section{
 		padding-left: 0%;
 		margin-left: 0%;
 	}
+	.project-wrapper p{
+		font-size:.8em;
+		transition: font 0.3s ease;
+	}
+	.bottom-nav a{
+		font-size: 1.5em;
+		transition: font 0.3s ease;
+	}
 	.project-wrapper{
+		width: 90%;
+		transition: width 0.3s ease;
+		margin: 1em auto;
+		padding: 0;
+	}
+	.bottom-nav{
 		width: 100%;
-		padding: 5% 10%;
+		transition: width 0.3s ease;
 	}
 	.project-wrapper h2{
 		font-size: 1.4em;
 		border-bottom: .1em solid #4d4d4d;	
-	}
-	.project-wrapper p{
-		font-size:1em;
-	}
-	.bottom-nav a{
-		font-size: 1.5em;
 	}
 }
 @media screen and (max-width: 415px){
 	h1,h2{
 		font-size:2.2em;
 		}
+	h2{
+		padding-top: .8em;
+	}
 	#about{
 		padding-top: 5em;
 	}
@@ -284,8 +295,10 @@ section{
 	.arrow{
 		font-size: 1.2em;
 	}
-	.image{
-		width: 98%;
+	.image,#contact p, #contact h3{
+		text-align: center;
+		width: 100%;
+		padding-right: 0;
 	}
 	#about, #work, #contact{
 		text-align: center;
@@ -297,15 +310,12 @@ section{
 		text-align: center;
 		margin: 0 auto;
 	}
-	#contact p, #contact h3{
-		text-align: center;
-		width: 98%;
-	}
 	#social-icons{
 		text-align:center;
+		padding-right: 0;
 	}
 	.social-icon{
-		padding-right: 29%;
+		padding-right: 31%;
 		padding-top: 3%;
 	}
 	.social-icon:nth-child(3){
@@ -318,17 +328,21 @@ section{
 	}
 	.project-wrapper h2{
 		font-size: 1.2em;
-		border-bottom: .14em solid #4d4d4d;	
+		border-bottom: .14em solid #4d4d4d;
+		transition: font 0.3s ease;
 	}
-	.project-wrapper p{
-		font-size: .9em;
+	.bottom-nav{
+		width: 100%;
+		transition: width 0.3s ease;
 	}
 	.bottom-nav a{
 		font-size: 1.2em;
 		padding-top: .7em;
 		padding-bottom:10%;
+		transition: font 0.3s ease;
 	}
 	.project-wrapper img{
-		margin-top: 1.5em;
-	}
+		width: 100%;
+		transition: width 0.3s ease;
+		}
 }
