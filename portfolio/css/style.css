@@ -242,7 +242,7 @@ section{
 		display: block;
 		float: none;
 		text-align: left;
-		width: 50%;
+		width: 40%;
 		margin: 0;
 	}
 	#contact p, #contact h3{
@@ -250,9 +250,7 @@ section{
 		float: none;
 		text-align: left;
 		width: 100%;
-		margin-top: 5%;
-	}
-	#contact p, h3{
+		margin-top: 3%;
 		font-size: 1.2em;
 	}
 	.social-icon img:first-child{
