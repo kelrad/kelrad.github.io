@@ -7,9 +7,9 @@ h1,h2{
 	display: inline-block;
 	font:normal normal bold 4em/normal 'Copse', serif;
 	letter-spacing: .05em;
+	margin-bottom: .5em;
 	padding-bottom: .02em;
 	text-align: left;
-	margin-bottom: .5em;
 	}
 h1{
 	border-bottom: .08em solid #9c2e23;
@@ -54,8 +54,8 @@ p{
 	margin: 1%;
 }	
 .image{
-	width: 24%;
 	display: inline-block;
+	width: 24%;
 }	
 #contact h2{
 	border-bottom: .08em solid #16547d;
@@ -68,22 +68,22 @@ p{
 }
 h3, #contact p, #social-icons{
 	float: right;
+	padding-right: 5%;
 	text-align: left;
 	width: 70%;
-	padding-right: 5%;
 }
 h3, #contact p{	
 	font-size: 1.5em;
 	margin: 0em 0em 1.5em 0em;
 }
 h3{
-	margin: 0em 0em .6em 0em;
 	font-weight: 700;
+	margin: 0em 0em .6em 0em;
 }
 a{
-	text-decoration: none;
-	font-weight: 700;
 	color: #9c2e23;
+	font-weight: 700;
+	text-decoration: none;
 }
 #work-link:hover{
 	color: #66150d;
@@ -114,20 +114,20 @@ a{
 	margin: 3%;
 }
 .social-icon{
-	width: 10%;
 	display: inline-block;
+	width: 10%;
 }
 .wrapper {
-	width:80%;
 	margin-left:10%;
 	margin-right:10%;
+	width:80%;
 }
 .clearfix:after { 
-	content: "."; 
-	visibility: hidden; 
+	clear: both;
+	content: ".";  
 	display: block; 
 	height: 0; 
-	clear: both;
+	visibility: hidden;
 }
 section{
 	padding: 5% 0;
@@ -137,9 +137,9 @@ section{
 	color: #4d4d4d;
 }
 .project-wrapper{
+	margin: 0 4%;
 	padding: 0 5% 2.5% 1%;
 	width: 60%;
-	margin: 0 4%;
 }
 .project-wrapper h2{
 	border-bottom: .08em solid #4d4d4d;
@@ -148,33 +148,33 @@ section{
 	margin-top: 1em;
 }
 .project img{
-	width: 100%;
-	margin-top: 2em;
-	transition: width 0.3s ease;
 	display:block;
+	margin-top: 2em;
+	width: 100%;
+	transition: width 0.3s ease;
 }
 .project-wrapper p{
 	font-size: 1em;
 	margin: .2em 0 0 0;
 }
 .last, .home, .next{
-	font-size: 2em;
 	color: #4d4d4d;
+	font-size: 2em;
 	font-family: 'Copse';
 }
 .bottom-nav a:hover{
 	color: black;
 }
 .bottom-nav{
-	padding-top: 5%;
 	padding-bottom: 7%;
+	padding-top: 5%;
 	width: 100%;
 }
 .bottom-nav a{
 	display: block;
-	width: 33.3%;
-	padding: 0;
 	margin: 0;
+	padding: 0;
+	width: 33.3%;
 }
 .project-wrapper a:last-child{
 	float: right;
@@ -190,10 +190,7 @@ section{
 	float: right;
 	text-align: right;
 }
-.last.hide{
-	visibility: hidden;
-}
-.next.hide{
+.last.hide, .next.hide{
 	visibility: hidden;
 }
 #social-bottom, #social-top{
@@ -201,8 +198,8 @@ section{
 }
 @media screen and (max-width: 1199px){
 	.project-wrapper h2{
-		font-size: 2.3em;
 		border-bottom: .07em solid #4d4d4d;
+		font-size: 2.3em;
 		transition: font 0.3s ease;
 	}
 	.project-wrapper{
@@ -224,8 +221,8 @@ section{
 		transition: font 0.3s ease;
 	}	
 	.image{
-		width: 49%;
 		display: inline-block;
+		width: 49%;
 		transition: width 0.3s ease;
 	}
 	#social-icons{
@@ -241,21 +238,21 @@ section{
 	#self{
 		display: block;
 		float: none;
+		margin: 0;
 		text-align: left;
 		width: 40%;
-		margin: 0;
 	}
 	#contact p, #contact h3{
 		display: block;
 		float: none;
+		font-size: 1.2em;
+		margin-top: 3%;
 		text-align: left;
 		width: 100%;
-		margin-top: 3%;
-		font-size: 1.2em;
 	}
 	.social-icon img:first-child{
-		padding-left: 0%;
 		margin-left: 0%;
+		padding-left: 0%;
 	}
 	.project-wrapper p{
 		font-size:.8em;
@@ -266,70 +263,64 @@ section{
 		transition: font 0.3s ease;
 	}
 	.project-wrapper{
-		width: 90%;
-		transition: width 0.3s ease;
 		margin: 1em auto;
 		padding: 0;
+		width: 90%;
+		transition: width 0.3s ease;
 	}
 	.bottom-nav{
 		width: 100%;
 		transition: width 0.3s ease;
 	}
 	.project-wrapper h2{
-		font-size: 1.4em;
 		border-bottom: .1em solid #4d4d4d;	
+		font-size: 1.4em;
 	}
 }
 @media screen and (max-width: 415px){
 	h1,h2{
 		font-size:2.2em;
-		}
+	}
 	h2{
 		padding-top: .8em;
 	}
 	#about{
 		padding-top: 5em;
 	}
-	p,h3{
+	p,h3, .arrow{
 		font-size: 1.2em;
 	}	
-	.arrow{
-		font-size: 1.2em;
-	}
 	.image,#contact p, #contact h3{
+		padding-right: 0;
 		text-align: center;
 		width: 100%;
-		padding-right: 0;
 	}
-	#about, #work, #contact{
+	#about, #work, #contact, #social-icons{
 		text-align: center;
 	}
 	#self{
 		display: block;
 		float: none;
-		width: 75%;
-		text-align: center;
 		margin: 0 auto;
+		text-align: center;
+		width: 75%;
 	}
-	#social-icons{
-		text-align:center;
-		padding-right: 0;
-	}
+
 	.social-icon{
 		padding-right: 31%;
 		padding-top: 3%;
 	}
 	.social-icon:nth-child(3){
-		padding-right: 0%;
 		margin-right: 0%;
+		padding-right: 0%;
 	}
 	.social-icon:last-child{
-		padding-right: 0%;
 		margin-right: 0%;
+		padding-right: 0%;
 	}
 	.project-wrapper h2{
-		font-size: 1.2em;
 		border-bottom: .14em solid #4d4d4d;
+		font-size: 1.2em;
 		transition: font 0.3s ease;
 	}
 	.bottom-nav{
@@ -359,9 +350,9 @@ section{
 		width: 33.3%;
 	}
 	#social-bottom a{
-		width: 25%;
-		padding-right: 0%;
 		padding-left: 0%;
+		padding-right: 0%;
+		width: 25%;
 	}
 	#social-top, #social-bottom:last-child{
 		float: right;
