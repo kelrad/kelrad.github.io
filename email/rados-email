@@ -1,0 +1,85 @@
+<html>
+<header>
+	<style>
+		@media only screen and (max-device-width: 480px){
+			table table {
+			width: 100%;
+			text-align: center;
+			}
+		}
+	</style>
+</header>
+<body style="margin: 0; padding: 0; padding-top:20px">
+	<table align= "center" border="0" cellpadding="0" cellspacing="0" width= "600px" style="border-collapse: collapse;">
+		<tr bgcolor="#3498db">
+			<td align="left" style= "padding-top: 40px; padding-bottom:20px; padding-left: 34px">
+				<img src="http://i.imgur.com/bXoBJya.png?1"/ alt="green cactus" width="50">
+				<img src="http://i.imgur.com/WKHppWw.png?1"/ alt="yellow wolf" width="40">
+				<img src="http://i.imgur.com/8eXXmOS.png?1"/ alt="blue branch" width="50">
+				<img src="http://i.imgur.com/V1FOdGa.png?1"/ alt="red burst" width="50">
+				<img src="http://i.imgur.com/ryh7XsT.png?1"/ alt="yellow corn cob" width="50">
+				<img src="http://i.imgur.com/Gq0bJli.png?1"/ alt="taster bookmark logo" width="50">
+			</td>
+		</tr>
+		<tr bgcolor="#3498db">
+			<td align="left" style= "padding-bottom:40px; padding-left: 40px;">
+				<img src="http://i.imgur.com/J0mPA6S.png"/ title= "Kellie Rados" alt="Kellie Rados"/ width="300">
+			</td>	
+		</tr>
+		<tr align="left" style= "border-top:white 8px solid;">
+			<td bgcolor="#bdc3c7" style="color: #4d4d4d; font-size: 24px; font-family: helvetica, arial, 'sans-serif'; font-weight: bold; padding: 40px 10px 10px 40px; letter-spacing: 1.5px;">Portfolio site redesign</td>
+		</tr>
+		<tr align="left">
+			<td bgcolor="#bdc3c7" style="color: #4d4d4d; font-size: 20px; line-height: 28px; letter-spacing: .4px; font-family: helvetica, arial, 'sans-serif'; padding-left: 40px; padding-right: 40px">Well, it's finally time for the big reveal! As you may know, I've had my portfolio site hosted by Squarespace for past year or so. I've wanted to create a custom site for quite some time now, and have often been frustrated with the lack of customizability that Squarespace offers. I've spent the last few months learning to code, so I was finally able to design and program a new site myself! It's been a challenging and rewarding adventure, and I think you'll like the outcome.</td>
+		</tr>
+		<tr bgcolor="#bdc3c7" style="margin-top: 10px; margin-bottom:10px;">
+			<td style= "font-family: helvetica, arial, 'sans-serif';"> 
+				<table border="0" align= "left" style= "margin-top: 10px; margin-bottom:40px; margin-left: 40px;">
+					<tr>
+						<td bgcolor="#bdc3c7" align= "left" style="font-size: 18px; padding:10px; border: #4d4d4d 2px solid; color: #4d4d4d;">Visit the site!</td>
+					</tr>							
+				</table>
+		</tr>
+			</td>		
+		<tr>
+			<td bgcolor="#ee4c50" style="padding: 40px 30px 40px 30px; border-top:white 8px solid;">
+				<table border="0" width= "100%">
+					<tr style= "font-family: helvetica, arial, 'sans-serif';">
+						<td width: "70%" style= "color: #9c2e23;">Let me know what you think of the new site. <br>Email me at ksodar@gmail.com</br></td>
+						<td align= "right" width:"30%">
+							<table border="0" cellpadding="0" cellspacing="0">
+								  <tr>
+								   <td>
+								    <a href="http://www.twitter.com/kelrad">
+								     <img src="http://i.imgur.com/p376Hu3.png?1"/ alt="Follow" style="width: 30px;">
+								    </a>
+								    <td>
+								    <a href="http://www.instagram.com/kelrad">
+								     <img src="http://i.imgur.com/Ru8Dewq.png?1"/ alt="Instagram" style="width: 30px;">
+								    </a>
+								   </td>
+								   <td>
+								    <a href="http://www.behance.net/kemellierados">
+								     <img src="http://i.imgur.com/jV5gZdr.png?1" / alt="Behance" style="width: 30px;">
+								    </a>
+								    <td>
+								    <td>
+								    <a href="http://www.linkedin.com/in/kellierados">
+								     <img src="http://i.imgur.com/oy3elQH.png?1" / alt="Linkedinw" style="width: 30px;">
+								    </a>
+								    <td>
+								  </tr>
+								 </table>
+						</td>
+					</tr>							
+				</table>
+			</td>
+	</table>
+</body>
+</html>
+
+
+<!--<img src="http://i.imgur.com/uC6HW6C.png?1"/ alt="white satellite" width="50">
+				<img src="http://i.imgur.com/kVUm4V6.png?1"/ alt="grey hatch marks" width="45">
+				<img src="http://i.imgur.com/urFmdZB.png?1"/ alt="swiffer book" width="50">
+				<img src="http://i.imgur.com/HBMgMWW.png?1"/ alt="brown tv set" width="50">-->
