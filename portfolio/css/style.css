@@ -153,8 +153,8 @@ section{
 	width: 60%;
 }
 .project-wrapper h2{
-	border-bottom: .08em solid #4d4d4d;
-	font-size: 2.7em;
+	border-bottom: .09em solid #4d4d4d;
+	font-size: 3em;
 	margin-bottom: 0em;
 	margin-top: 1em;
 }
@@ -208,22 +208,22 @@ section{
 	display: inline;
 }
 @media screen and (max-width: 1199px){
-	.project-wrapper h2{
-		border-bottom: .07em solid #4d4d4d;
-		font-size: 2.3em;
-		transition: font 0.3s ease;
-	}
 	.project-wrapper{
 		width: 70%;
 		transition: width 0.3s ease;
 		}
+	.project-wrapper h2{
+		border-bottom: .07em solid #4d4d4d;
+		font-size: 2.7em;
+		transition: font 0.3s ease;
+	}
 }
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 950px){
 	h1,h2{
 		font-size:2.5em;
 		transition: font 0.3s ease;
 	}
-	p{
+		p{
 		font-size: 1.5em;
 		transition: font 0.3s ease;
 	}	
@@ -282,15 +282,18 @@ section{
 		width: 100%;
 		transition: width 0.3s ease;
 	}
-	.project-wrapper h2{
-		border-bottom: .1em solid #4d4d4d;	
-		font-size: 1.4em;
-	}
+
 }
 @media screen and (max-width: 730px){
 	.image{
 		width: 50%;
 		transition: width 0.3s ease;
+	}
+}	
+@media screen and (max-width: 680px){
+	.project-wrapper h2{
+		font-size: 2em;
+		transition: font 0.3s ease;
 	}
 }	
 @media screen and (max-width: 600px){
@@ -305,6 +308,11 @@ section{
 	}
 	#contact p, #contact h3{
 		font-size: 1.3em;
+	}
+	.project-wrapper h2{
+		border-bottom: .15em solid #4d4d4d;
+		font-size: 1.2em;
+		transition: font 0.3s ease;
 	}
 }	
 @media screen and (max-width: 415px){
@@ -356,10 +364,8 @@ section{
 		padding-right: 0%;
 	}
 	.project-wrapper h2{
-		border-bottom: .14em solid #4d4d4d;
+		border-bottom: .15em solid #4d4d4d;
 		margin-top: 0px;
-		font-size: 1.7em;
-		transition: font 0.3s ease;
 	}
 	.bottom-nav{
 		width: 100%;
