@@ -20,6 +20,9 @@ p{
 	letter-spacing: .05em;
 	padding-right: 5%;
 	} 
+#contact p{
+	padding-right: 0%;
+	} 	
 #about{ 
 	background:#e74c3c;
 	color: #9c2e23;
@@ -75,7 +78,7 @@ h3, #contact p, #social-icons{
 	width: 70%;
 }
 h3, #contact p{	
-	font-size: 1.5em;
+	font-size: 1.7em;
 	margin: 0em 0em 1.5em 0em;
 }
 h3{
@@ -308,6 +311,9 @@ section{
 		text-align: center;
 		width: 100%;
 	}
+	#contact p{
+		margin-top:6%;
+	}	
 	#about, #work, #contact, #social-icons{
 		text-align: center;
 	}
