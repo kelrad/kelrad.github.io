@@ -26,7 +26,7 @@ p{
 #about{ 
 	background:#e74c3c;
 	color: #9c2e23;
-	padding-top: 9em;
+	padding-top: 9.5em;
 	position:relative;
 }
 #work{
@@ -232,8 +232,7 @@ section{
 		transition: font 0.3s ease;
 	}	
 	.image{
-		display: inline-block;
-		width: 49%;
+		width: 33.33%;
 		transition: width 0.3s ease;
 	}
 	#social-icons{
@@ -256,7 +255,7 @@ section{
 	#contact p, #contact h3{
 		display: block;
 		float: none;
-		font-size: 1.2em;
+		font-size: 1.4em;
 		margin-top: 3%;
 		text-align: left;
 		width: 100%;
@@ -288,14 +287,30 @@ section{
 		font-size: 1.4em;
 	}
 }
+@media screen and (max-width: 730px){
+	.image{
+		width: 50%;
+		transition: width 0.3s ease;
+	}
+}	
 @media screen and (max-width: 600px){
 	#about{
-		padding-top:4em;
+		padding-top:4.5em;
 	}
 }
+@media screen and (max-width: 480px){
+	p, h3{
+		font-size: 1.3em;
+		transition: font 0.3s ease;
+	}
+	#contact p, #contact h3{
+		font-size: 1.3em;
+	}
+}	
 @media screen and (max-width: 415px){
 	h1,h2{
 		font-size:2.2em;
+		transition: font 0.3s ease;
 	}
 	h2{
 		padding-top: .8em;
@@ -305,7 +320,11 @@ section{
 	}
 	p,h3, .arrow{
 		font-size: 1.2em;
+		transition: font 0.3s ease;
 	}	
+	#contact p, #contact h3{
+		font-size: 1.2em;
+	}
 	.image,#contact p, #contact h3{
 		padding-right: 0;
 		text-align: center;
