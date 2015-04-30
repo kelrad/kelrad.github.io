@@ -54,8 +54,10 @@ p{
 	margin: 1%;
 }	
 .image{
-	display: inline-block;
-	width: 24%;
+	display: block;
+	float:left;
+	width: 25%;
+	margin-top: 3%;
 }	
 #contact h2{
 	border-bottom: .08em solid #16547d;
@@ -84,6 +86,12 @@ a{
 	color: #9c2e23;
 	font-weight: 700;
 	text-decoration: none;
+}
+#contact a{
+	color:#16547d;;
+}
+#contact a:hover{
+	color:#003333;
 }
 #work-link:hover{
 	color: #66150d;
@@ -255,7 +263,7 @@ section{
 		padding-left: 0%;
 	}
 	.project-wrapper p{
-		font-size:.8em;
+		font-size:1em;
 		transition: font 0.3s ease;
 	}
 	.bottom-nav a{
@@ -275,6 +283,11 @@ section{
 	.project-wrapper h2{
 		border-bottom: .1em solid #4d4d4d;	
 		font-size: 1.4em;
+	}
+}
+@media screen and (max-width: 600px){
+	#about{
+		padding-top:4em;
 	}
 }
 @media screen and (max-width: 415px){
@@ -305,7 +318,6 @@ section{
 		text-align: center;
 		width: 75%;
 	}
-
 	.social-icon{
 		padding-right: 31%;
 		padding-top: 3%;
@@ -320,7 +332,8 @@ section{
 	}
 	.project-wrapper h2{
 		border-bottom: .14em solid #4d4d4d;
-		font-size: 1.2em;
+		margin-top: 0px;
+		font-size: 1.7em;
 		transition: font 0.3s ease;
 	}
 	.bottom-nav{
