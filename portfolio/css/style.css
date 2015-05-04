@@ -143,6 +143,9 @@ a{
 section{
 	padding: 5% 0;
 }
+#first-arrow{
+	padding: 5% 0;
+}
 .project{
 	background: #bdc3c7;
 	color: #4d4d4d;
@@ -328,7 +331,9 @@ section{
 	}
 	p,h3, .arrow{
 		font-size: 1.2em;
-		transition: font 0.3s ease;
+	}	
+	p{
+		padding:0;
 	}	
 	#contact p, #contact h3{
 		font-size: 1.2em;
