@@ -293,18 +293,18 @@ section{
 		transition: width 0.3s ease;
 	}
 }	
-@media screen and (max-width: 680px){
+@media screen and (max-device-width: 680px){
 	.project-wrapper h2{
 		font-size: 2em;
 		transition: font 0.3s ease;
 	}
 }	
-@media screen and (max-width: 600px){
+@media screen and (max-device-width: 600px){
 	#about{
 		padding-top:4.5em;
 	}
 }
-@media screen and (max-width: 480px){
+@media screen and (max-device-width: 480px){
 	p, h3{
 		font-size: 1.3em;
 		transition: font 0.3s ease;
@@ -318,7 +318,7 @@ section{
 		transition: font 0.3s ease;
 	}
 }	
-@media screen and (max-width: 415px){
+@media screen and (max-device-width: 415px){
 	h1,h2{
 		font-size:2.2em;
 		transition: font 0.3s ease;
