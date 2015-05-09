@@ -4,12 +4,20 @@
 	<title>Kellie Rados Portfolio Redesign</title>
 
 	<style type="text/css">
-	@media only screen and (max-width: 480px){
-    		#text,#button-box{
+	@media only screen and (max-width: 600px){
+    		#main-table{
+				width: 100% !important;
+				padding: 0 !important;
+				margin: 0 !important;
+			}
+    		#text, #button{
         		font-size: 16px !important;
         		text-align: center !important;
-        		margin: 0;
-        		padding:0;
+        	}
+			#button{
+				margin: 0 auto !important;
+				margin-top: 15px !important;
+				margin-bottom: 40px !important;
 			}
 			#header {
         		font-size: 20px !important;
@@ -19,23 +27,26 @@
 				text-align: center !important;
 				width: 200px;
 			}
-			#main-table{
-				width: 300px !important;
-			}
 			#images{
 				text-align: center !important;
 			}
 			#bookmark{
 				display:none !important;
 			}
+			#title{
+				margin: 20px 140px !important;
+			}
+			#footer-left{
+				
+			}
 		}
 	</style>
 </head>
-<body style="margin:0;">
+<body style="margin:0; padding:0;">
 <table border="0" cellpadding="0" align="center">
 	<tr>
 		<td align="center">
-			<table id="main-table"align= "center" border="0" cellspacing="0" cellpadding="0" width= "600" style="border-collapse: collapse; margin-top: 10px; margin-bottom: 10px;" id="main-table">
+			<table id="main-table" align= "center" border="0" cellspacing="0" cellpadding="0" width= "600" style="border-collapse: collapse; margin-top: 10px; margin-bottom: 10px;">
 				<tr bgcolor="#3498db">
 					<td id="images" align="left" style= "padding-top: 40px; padding-bottom:10px; padding-left: 35px; padding-right:35px;">
 						<img src="http://i.imgur.com/bXoBJya.png?1" alt="green cactus" width="50">
@@ -46,9 +57,9 @@
 						<img id="bookmark" src="http://i.imgur.com/Gq0bJli.png?1" alt="taster bookmark logo" width="50">
 					</td>
 				</tr>
-				<tr bgcolor="#3498db">
-					<td id="title" align="left" style= "padding: 0px 35px 40px 35px;">
-						<img src="http://i.imgur.com/zS22NsS.png" title= "Kellie Rados" alt="Kellie Rados" width="300">
+				<tr width="100%" bgcolor="#3498db">
+					<td width="100%">
+						<img id="title" style= "margin: 0px 35px 40px 35px;"src="http://i.imgur.com/zS22NsS.png" title="Kellie Rados" alt="Kellie Rados" width="300">
 					</td>	
 				</tr>
 				<tr align="left" style= "border-top:white 8px solid;">
@@ -59,9 +70,9 @@
 				</tr>
 				<tr bgcolor="#bdc3c7" style="margin-top: 10px; margin-bottom:10px;">
 					<td style= "font-family: helvetica, arial, 'sans-serif';"> 
-						<table id="button-box" border="0" align="left" style= "margin-top: 15px; margin-bottom:40px; margin-left: 40px;">
+						<table id="button" border="0" style= "margin-top: 15px; margin-bottom:40px; margin-left: 40px; text-align: left;">
 							<tr>
-								<td id="button" bgcolor="#bdc3c7" align= "left" style="font-size: 18px; padding:10px; border: #4d4d4d 3px solid; color: #4d4d4d;"><a style="text-decoration:none; color:#4d4d4d;" href="http://www.kellierados.com">Visit the site!</a></td>
+								<td bgcolor="#bdc3c7" style="font-size: 18px; padding:10px; border: #4d4d4d 3px solid; color: #4d4d4d;"><a style="text-decoration:none; color:#4d4d4d;" href="http://www.kellierados.com">Visit the site!</a></td>
 							</tr>							
 						</table>
 					</td>
@@ -70,10 +81,10 @@
 					<td bgcolor="#ee4c50" style="padding: 40px 30px 40px 30px; border-top:white 8px solid;">
 						<table border="0" width= "100%">
 							<tr style= "font-family: helvetica, arial, 'sans-serif'; font-size: 16px;">
-								<td width= "420" style= "color: #9c2e23;">Let me know what you think of the new site.<br>Email me at ksodar@gmail.com</br></td>
-								<td align= "right" width= "180">
+								<td id="footer-left" width= "420" style= "color: #9c2e23;">Let me know what you think of the new site.<br>Email me at ksodar@gmail.com</br></td>
+								<td width= "180" style="text-align: left;">
 									<table border="0" cellpadding="2" cellspacing="0">
-										<tr>
+										<tr id="footer-right">
 										    <td>
 											    <a href="http://www.twitter.com/kelrad">
 											     <img src="http://i.imgur.com/yH06UOq.png" alt="Follow" style="width: 30px;">
