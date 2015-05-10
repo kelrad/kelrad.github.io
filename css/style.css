@@ -20,6 +20,9 @@ p{
 	letter-spacing: .05em;
 	padding-right: 5%;
 	} 
+#Tap{
+	display: none;
+}	
 #contact p{
 	padding-right: 0%;
 	} 	
@@ -287,12 +290,20 @@ section{
 	}
 
 }
-@media screen and (max-width: 730px){
+@media screen and (max-device-width: 780px){
+	#Tap{
+		display: inline;
+	}
+	#Click{
+		display: none;
+	}
+}
+@media screen and (max-device-width: 730px){
 	.image{
 		width: 50%;
 		transition: width 0.3s ease;
 	}
-}	
+}		
 @media screen and (max-device-width: 680px){
 	.project-wrapper h2{
 		font-size: 2em;
